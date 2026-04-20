@@ -29,13 +29,12 @@ cd resume-reviewer
 # Install
 pip install -r requirements.txt
 
-# Review a resume
+# ── Web UI (recommended) ──
+streamlit run app.py
+
+# ── CLI ──
 python main.py resume.pdf
-
-# Review against a job description
 python main.py resume.pdf --job-desc job_description.txt
-
-# JSON output
 python main.py resume.pdf --format json
 ```
 
@@ -79,6 +78,7 @@ python main.py resume.pdf --format json
 ```
 resume-reviewer/
 ├── main.py                     # CLI entry point
+├── app.py                      # Streamlit web UI
 ├── reviewer/
 │   ├── __init__.py
 │   ├── parser.py               # Resume text extraction (PDF/DOCX/TXT)
