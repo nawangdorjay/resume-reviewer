@@ -117,3 +117,15 @@ Built by **Nawang Dorjay** — 2nd-year B.Tech CSE (Data Science) student from L
 ## 📜 License
 
 MIT
+
+---
+
+## 🤖 AI-Assisted Development
+
+This project was built with AI assistance as part of a transparent human-AI collaboration workflow. AI helped with code generation, structure, and documentation — while domain expertise, data accuracy, and architectural decisions were human-driven.
+
+> **See [BUILDING.md](BUILDING.md) for full transparency on AI usage, roles, and workflow.**
+
+---
+
+
